@@ -39,6 +39,10 @@ namespace Student_Management
                         //form_dashboard.Show();
 
                     }
+                    else
+                    {
+                        MessageBox.Show("Enter valid username or password!","Error");
+                    }
                 } 
                 
             }

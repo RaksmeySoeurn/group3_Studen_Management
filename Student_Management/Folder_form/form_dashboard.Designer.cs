@@ -87,8 +87,8 @@ namespace Student_Management.Folder_form
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Khmer Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(42, 130);
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.Location = new System.Drawing.Point(36, 139);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(174, 24);
             this.label2.TabIndex = 0;
@@ -98,7 +98,7 @@ namespace Student_Management.Folder_form
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(61, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(60, 9);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(126, 127);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -123,6 +123,7 @@ namespace Student_Management.Folder_form
             this.Controls.Add(this.panelmenue);
             this.Controls.Add(this.panelheader);
             this.Name = "form_dashboard";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "form_dashboard";
             this.Load += new System.EventHandler(this.form_dashboard_Load);
             this.panelheader.ResumeLayout(false);
