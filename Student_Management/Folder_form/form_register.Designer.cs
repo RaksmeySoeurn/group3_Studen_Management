@@ -100,7 +100,7 @@ namespace Student_Management.Folder_form
             // 
             this.btn_clear.BackColor = System.Drawing.Color.Red;
             this.btn_clear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_clear.Location = new System.Drawing.Point(171, 320);
+            this.btn_clear.Location = new System.Drawing.Point(172, 320);
             this.btn_clear.Name = "btn_clear";
             this.btn_clear.Size = new System.Drawing.Size(98, 41);
             this.btn_clear.TabIndex = 13;

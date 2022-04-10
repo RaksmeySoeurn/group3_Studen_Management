@@ -86,7 +86,7 @@ namespace Student_Management.Folder_form
             this.btn_department.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_department.Font = new System.Drawing.Font("Rockwell", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_department.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btn_department.Location = new System.Drawing.Point(12, 313);
+            this.btn_department.Location = new System.Drawing.Point(12, 315);
             this.btn_department.Name = "btn_department";
             this.btn_department.Size = new System.Drawing.Size(174, 37);
             this.btn_department.TabIndex = 3;

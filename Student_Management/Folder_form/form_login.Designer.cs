@@ -55,7 +55,7 @@ namespace Student_Management
             this.panel_login.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_login.Location = new System.Drawing.Point(0, 0);
             this.panel_login.Name = "panel_login";
-            this.panel_login.Size = new System.Drawing.Size(821, 461);
+            this.panel_login.Size = new System.Drawing.Size(827, 464);
             this.panel_login.TabIndex = 0;
             // 
             // button2
@@ -94,7 +94,7 @@ namespace Student_Management
             this.btn_login.BackColor = System.Drawing.Color.Lime;
             this.btn_login.Font = new System.Drawing.Font("Khmer OS Wat Phnom", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_login.ForeColor = System.Drawing.Color.Black;
-            this.btn_login.Location = new System.Drawing.Point(508, 301);
+            this.btn_login.Location = new System.Drawing.Point(521, 301);
             this.btn_login.Name = "btn_login";
             this.btn_login.Size = new System.Drawing.Size(120, 54);
             this.btn_login.TabIndex = 3;
@@ -138,7 +138,7 @@ namespace Student_Management
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(821, 461);
+            this.ClientSize = new System.Drawing.Size(827, 464);
             this.Controls.Add(this.panel_login);
             this.Name = "form_login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
