@@ -14,11 +14,12 @@ namespace Student_Management
         [STAThread]
         static void Main()
         {
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Folder_form.form_dashboard());
             Application.Run(new form_login());
             Application.Run(new Folder_form.form_dashboard());
+            //Application.Run(new form_login());
         }
     }
 }
