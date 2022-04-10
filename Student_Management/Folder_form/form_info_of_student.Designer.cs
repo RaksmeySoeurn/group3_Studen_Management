@@ -30,28 +30,20 @@ namespace Student_Management.Folder_form
         private void InitializeComponent()
         {
             this.panel_title_info = new System.Windows.Forms.Panel();
-            this.panel_co_info = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel_co_info = new System.Windows.Forms.Panel();
             this.panel_title_info.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel_title_info
             // 
+            this.panel_title_info.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.panel_title_info.Controls.Add(this.label1);
             this.panel_title_info.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_title_info.Location = new System.Drawing.Point(0, 0);
             this.panel_title_info.Name = "panel_title_info";
             this.panel_title_info.Size = new System.Drawing.Size(735, 64);
             this.panel_title_info.TabIndex = 0;
-            // 
-            // panel_co_info
-            // 
-            this.panel_co_info.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel_co_info.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_co_info.Location = new System.Drawing.Point(0, 64);
-            this.panel_co_info.Name = "panel_co_info";
-            this.panel_co_info.Size = new System.Drawing.Size(735, 417);
-            this.panel_co_info.TabIndex = 1;
             // 
             // label1
             // 
@@ -64,6 +56,15 @@ namespace Student_Management.Folder_form
             this.label1.TabIndex = 0;
             this.label1.Text = "Information Of Student";
             this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // panel_co_info
+            // 
+            this.panel_co_info.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel_co_info.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel_co_info.Location = new System.Drawing.Point(0, 64);
+            this.panel_co_info.Name = "panel_co_info";
+            this.panel_co_info.Size = new System.Drawing.Size(735, 417);
+            this.panel_co_info.TabIndex = 1;
             // 
             // form_info_of_student
             // 

@@ -30,20 +30,20 @@ namespace Student_Management.Folder_form
         private void InitializeComponent()
         {
             this.panel_above = new System.Windows.Forms.Panel();
-            this.panel_menu = new System.Windows.Forms.Panel();
-            this.panel_con = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.lab_fac = new System.Windows.Forms.Label();
-            this.lab_dep = new System.Windows.Forms.Label();
-            this.lab_lev = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.combo_dep = new System.Windows.Forms.ComboBox();
-            this.combo_lev = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.btn_save = new System.Windows.Forms.Button();
-            this.btn_update = new System.Windows.Forms.Button();
+            this.panel_menu = new System.Windows.Forms.Panel();
             this.btn_delect = new System.Windows.Forms.Button();
+            this.btn_update = new System.Windows.Forms.Button();
+            this.btn_save = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.combo_lev = new System.Windows.Forms.ComboBox();
+            this.combo_dep = new System.Windows.Forms.ComboBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lab_lev = new System.Windows.Forms.Label();
+            this.lab_dep = new System.Windows.Forms.Label();
+            this.lab_fac = new System.Windows.Forms.Label();
+            this.panel_con = new System.Windows.Forms.Panel();
             this.panel_above.SuspendLayout();
             this.panel_menu.SuspendLayout();
             this.SuspendLayout();
@@ -57,6 +57,17 @@ namespace Student_Management.Folder_form
             this.panel_above.Name = "panel_above";
             this.panel_above.Size = new System.Drawing.Size(735, 64);
             this.panel_above.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Khmer Serif", 24F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.label1.Location = new System.Drawing.Point(219, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(362, 50);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Choose Department";
             // 
             // panel_menu
             // 
@@ -78,116 +89,17 @@ namespace Student_Management.Folder_form
             this.panel_menu.Size = new System.Drawing.Size(264, 417);
             this.panel_menu.TabIndex = 1;
             // 
-            // panel_con
+            // btn_delect
             // 
-            this.panel_con.BackColor = System.Drawing.Color.DarkKhaki;
-            this.panel_con.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_con.Location = new System.Drawing.Point(264, 64);
-            this.panel_con.Name = "panel_con";
-            this.panel_con.Size = new System.Drawing.Size(471, 417);
-            this.panel_con.TabIndex = 2;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Khmer Serif", 24F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.label1.Location = new System.Drawing.Point(219, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(362, 50);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Choose Department";
-            // 
-            // lab_fac
-            // 
-            this.lab_fac.AutoSize = true;
-            this.lab_fac.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lab_fac.ForeColor = System.Drawing.Color.Brown;
-            this.lab_fac.Location = new System.Drawing.Point(3, 3);
-            this.lab_fac.Name = "lab_fac";
-            this.lab_fac.Size = new System.Drawing.Size(91, 20);
-            this.lab_fac.TabIndex = 1;
-            this.lab_fac.Text = "Faculty ID";
-            // 
-            // lab_dep
-            // 
-            this.lab_dep.AutoSize = true;
-            this.lab_dep.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lab_dep.ForeColor = System.Drawing.Color.Brown;
-            this.lab_dep.Location = new System.Drawing.Point(3, 73);
-            this.lab_dep.Name = "lab_dep";
-            this.lab_dep.Size = new System.Drawing.Size(104, 20);
-            this.lab_dep.TabIndex = 2;
-            this.lab_dep.Text = "Department";
-            // 
-            // lab_lev
-            // 
-            this.lab_lev.AutoSize = true;
-            this.lab_lev.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lab_lev.ForeColor = System.Drawing.Color.Brown;
-            this.lab_lev.Location = new System.Drawing.Point(3, 140);
-            this.lab_lev.Name = "lab_lev";
-            this.lab_lev.Size = new System.Drawing.Size(51, 20);
-            this.lab_lev.TabIndex = 3;
-            this.lab_lev.Text = "Level";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Brown;
-            this.label5.Location = new System.Drawing.Point(8, 206);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(42, 20);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Skill";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(12, 26);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(204, 32);
-            this.textBox1.TabIndex = 0;
-            // 
-            // combo_dep
-            // 
-            this.combo_dep.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.combo_dep.FormattingEnabled = true;
-            this.combo_dep.Location = new System.Drawing.Point(12, 96);
-            this.combo_dep.Name = "combo_dep";
-            this.combo_dep.Size = new System.Drawing.Size(204, 28);
-            this.combo_dep.TabIndex = 0;
-            // 
-            // combo_lev
-            // 
-            this.combo_lev.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.combo_lev.FormattingEnabled = true;
-            this.combo_lev.Location = new System.Drawing.Point(12, 163);
-            this.combo_lev.Name = "combo_lev";
-            this.combo_lev.Size = new System.Drawing.Size(204, 28);
-            this.combo_lev.TabIndex = 5;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(12, 240);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(204, 28);
-            this.comboBox1.TabIndex = 6;
-            // 
-            // btn_save
-            // 
-            this.btn_save.BackColor = System.Drawing.Color.Honeydew;
-            this.btn_save.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_save.ForeColor = System.Drawing.Color.LimeGreen;
-            this.btn_save.Location = new System.Drawing.Point(12, 310);
-            this.btn_save.Name = "btn_save";
-            this.btn_save.Size = new System.Drawing.Size(82, 32);
-            this.btn_save.TabIndex = 0;
-            this.btn_save.Text = "Save";
-            this.btn_save.UseVisualStyleBackColor = false;
+            this.btn_delect.BackColor = System.Drawing.Color.Honeydew;
+            this.btn_delect.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_delect.ForeColor = System.Drawing.Color.Red;
+            this.btn_delect.Location = new System.Drawing.Point(68, 357);
+            this.btn_delect.Name = "btn_delect";
+            this.btn_delect.Size = new System.Drawing.Size(82, 32);
+            this.btn_delect.TabIndex = 8;
+            this.btn_delect.Text = "Delect";
+            this.btn_delect.UseVisualStyleBackColor = false;
             // 
             // btn_update
             // 
@@ -201,17 +113,105 @@ namespace Student_Management.Folder_form
             this.btn_update.Text = "Update";
             this.btn_update.UseVisualStyleBackColor = false;
             // 
-            // btn_delect
+            // btn_save
             // 
-            this.btn_delect.BackColor = System.Drawing.Color.Honeydew;
-            this.btn_delect.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_delect.ForeColor = System.Drawing.Color.Red;
-            this.btn_delect.Location = new System.Drawing.Point(68, 357);
-            this.btn_delect.Name = "btn_delect";
-            this.btn_delect.Size = new System.Drawing.Size(82, 32);
-            this.btn_delect.TabIndex = 8;
-            this.btn_delect.Text = "Delect";
-            this.btn_delect.UseVisualStyleBackColor = false;
+            this.btn_save.BackColor = System.Drawing.Color.Honeydew;
+            this.btn_save.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_save.ForeColor = System.Drawing.Color.LimeGreen;
+            this.btn_save.Location = new System.Drawing.Point(12, 310);
+            this.btn_save.Name = "btn_save";
+            this.btn_save.Size = new System.Drawing.Size(82, 32);
+            this.btn_save.TabIndex = 0;
+            this.btn_save.Text = "Save";
+            this.btn_save.UseVisualStyleBackColor = false;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(12, 240);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(204, 28);
+            this.comboBox1.TabIndex = 6;
+            // 
+            // combo_lev
+            // 
+            this.combo_lev.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.combo_lev.FormattingEnabled = true;
+            this.combo_lev.Location = new System.Drawing.Point(12, 163);
+            this.combo_lev.Name = "combo_lev";
+            this.combo_lev.Size = new System.Drawing.Size(204, 28);
+            this.combo_lev.TabIndex = 5;
+            // 
+            // combo_dep
+            // 
+            this.combo_dep.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.combo_dep.FormattingEnabled = true;
+            this.combo_dep.Location = new System.Drawing.Point(12, 96);
+            this.combo_dep.Name = "combo_dep";
+            this.combo_dep.Size = new System.Drawing.Size(204, 28);
+            this.combo_dep.TabIndex = 0;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(12, 26);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(204, 32);
+            this.textBox1.TabIndex = 0;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Brown;
+            this.label5.Location = new System.Drawing.Point(8, 206);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(42, 20);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Skill";
+            // 
+            // lab_lev
+            // 
+            this.lab_lev.AutoSize = true;
+            this.lab_lev.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lab_lev.ForeColor = System.Drawing.Color.Brown;
+            this.lab_lev.Location = new System.Drawing.Point(3, 140);
+            this.lab_lev.Name = "lab_lev";
+            this.lab_lev.Size = new System.Drawing.Size(51, 20);
+            this.lab_lev.TabIndex = 3;
+            this.lab_lev.Text = "Level";
+            // 
+            // lab_dep
+            // 
+            this.lab_dep.AutoSize = true;
+            this.lab_dep.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lab_dep.ForeColor = System.Drawing.Color.Brown;
+            this.lab_dep.Location = new System.Drawing.Point(3, 73);
+            this.lab_dep.Name = "lab_dep";
+            this.lab_dep.Size = new System.Drawing.Size(104, 20);
+            this.lab_dep.TabIndex = 2;
+            this.lab_dep.Text = "Department";
+            // 
+            // lab_fac
+            // 
+            this.lab_fac.AutoSize = true;
+            this.lab_fac.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lab_fac.ForeColor = System.Drawing.Color.Brown;
+            this.lab_fac.Location = new System.Drawing.Point(3, 3);
+            this.lab_fac.Name = "lab_fac";
+            this.lab_fac.Size = new System.Drawing.Size(91, 20);
+            this.lab_fac.TabIndex = 1;
+            this.lab_fac.Text = "Faculty ID";
+            // 
+            // panel_con
+            // 
+            this.panel_con.BackColor = System.Drawing.Color.DarkKhaki;
+            this.panel_con.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel_con.Location = new System.Drawing.Point(264, 64);
+            this.panel_con.Name = "panel_con";
+            this.panel_con.Size = new System.Drawing.Size(471, 417);
+            this.panel_con.TabIndex = 2;
             // 
             // form_department
             // 
