@@ -30,10 +30,12 @@ namespace Student_Management
                     SqlDataAdapter da = new SqlDataAdapter(query, cn);
                     DataTable dt = new DataTable();
                     da.Fill(dt);
+                    form_login form_dashboard = new form_login();
                     if (dt.Rows.Count == 1)
                     {
+                        //this.Close();
+                        //form_login form_dashboard = new form_login();
                         this.Close();
-                        form_login form_dashboard = new form_login();
                         form_dashboard.Show();
                         MessageBox.Show("Login Successful.");
                         //form_dashboard.Show();
@@ -42,6 +44,7 @@ namespace Student_Management
                     else
                     {
                         MessageBox.Show("Enter valid username or password!","Error");
+                        form_dashboard.Close();
                     }
                 } 
                 
