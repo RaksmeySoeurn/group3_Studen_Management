@@ -55,7 +55,7 @@ namespace Student_Management
             this.panel_login.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_login.Location = new System.Drawing.Point(0, 0);
             this.panel_login.Name = "panel_login";
-            this.panel_login.Size = new System.Drawing.Size(834, 461);
+            this.panel_login.Size = new System.Drawing.Size(821, 461);
             this.panel_login.TabIndex = 0;
             // 
             // button2
@@ -105,7 +105,7 @@ namespace Student_Management
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 71);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 36);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(362, 319);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -138,7 +138,7 @@ namespace Student_Management
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(834, 461);
+            this.ClientSize = new System.Drawing.Size(821, 461);
             this.Controls.Add(this.panel_login);
             this.Name = "form_login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

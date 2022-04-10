@@ -30,8 +30,8 @@ namespace Student_Management.Folder_form
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel_con_about = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel_con_about = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,17 +41,8 @@ namespace Student_Management.Folder_form
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(735, 64);
+            this.panel1.Size = new System.Drawing.Size(735, 63);
             this.panel1.TabIndex = 0;
-            // 
-            // panel_con_about
-            // 
-            this.panel_con_about.BackColor = System.Drawing.Color.Tan;
-            this.panel_con_about.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_con_about.Location = new System.Drawing.Point(0, 64);
-            this.panel_con_about.Name = "panel_con_about";
-            this.panel_con_about.Size = new System.Drawing.Size(735, 417);
-            this.panel_con_about.TabIndex = 1;
             // 
             // label1
             // 
@@ -63,6 +54,15 @@ namespace Student_Management.Folder_form
             this.label1.Size = new System.Drawing.Size(336, 42);
             this.label1.TabIndex = 0;
             this.label1.Text = "Information About Us";
+            // 
+            // panel_con_about
+            // 
+            this.panel_con_about.BackColor = System.Drawing.Color.Tan;
+            this.panel_con_about.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel_con_about.Location = new System.Drawing.Point(0, 63);
+            this.panel_con_about.Name = "panel_con_about";
+            this.panel_con_about.Size = new System.Drawing.Size(735, 418);
+            this.panel_con_about.TabIndex = 1;
             // 
             // form_about_us
             // 
