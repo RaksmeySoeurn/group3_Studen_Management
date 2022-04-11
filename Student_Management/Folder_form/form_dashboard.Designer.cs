@@ -54,7 +54,7 @@ namespace Student_Management.Folder_form
             this.panelheader.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelheader.Location = new System.Drawing.Point(0, 0);
             this.panelheader.Name = "panelheader";
-            this.panelheader.Size = new System.Drawing.Size(944, 80);
+            this.panelheader.Size = new System.Drawing.Size(936, 80);
             this.panelheader.TabIndex = 0;
             // 
             // label1
@@ -78,7 +78,7 @@ namespace Student_Management.Folder_form
             this.panelmenue.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelmenue.Location = new System.Drawing.Point(0, 80);
             this.panelmenue.Name = "panelmenue";
-            this.panelmenue.Size = new System.Drawing.Size(209, 481);
+            this.panelmenue.Size = new System.Drawing.Size(209, 472);
             this.panelmenue.TabIndex = 1;
             // 
             // btn_department
@@ -146,11 +146,11 @@ namespace Student_Management.Folder_form
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Khmer Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(12, 133);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(174, 24);
+            this.label2.Size = new System.Drawing.Size(143, 18);
             this.label2.TabIndex = 0;
             this.label2.Text = "Saint Paul Institue";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -171,14 +171,14 @@ namespace Student_Management.Folder_form
             this.panel_contance.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_contance.Location = new System.Drawing.Point(209, 80);
             this.panel_contance.Name = "panel_contance";
-            this.panel_contance.Size = new System.Drawing.Size(735, 481);
+            this.panel_contance.Size = new System.Drawing.Size(727, 472);
             this.panel_contance.TabIndex = 2;
             // 
             // form_dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(944, 561);
+            this.ClientSize = new System.Drawing.Size(936, 552);
             this.Controls.Add(this.panel_contance);
             this.Controls.Add(this.panelmenue);
             this.Controls.Add(this.panelheader);

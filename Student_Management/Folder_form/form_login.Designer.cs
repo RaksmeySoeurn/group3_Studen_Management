@@ -55,13 +55,13 @@ namespace Student_Management
             this.panel_login.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_login.Location = new System.Drawing.Point(0, 0);
             this.panel_login.Name = "panel_login";
-            this.panel_login.Size = new System.Drawing.Size(827, 464);
+            this.panel_login.Size = new System.Drawing.Size(820, 450);
             this.panel_login.TabIndex = 0;
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Red;
-            this.button2.Font = new System.Drawing.Font("Khmer OS Wat Phnom", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Location = new System.Drawing.Point(688, 301);
             this.button2.Name = "button2";
@@ -92,7 +92,7 @@ namespace Student_Management
             // btn_login
             // 
             this.btn_login.BackColor = System.Drawing.Color.Lime;
-            this.btn_login.Font = new System.Drawing.Font("Khmer OS Wat Phnom", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_login.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_login.ForeColor = System.Drawing.Color.Black;
             this.btn_login.Location = new System.Drawing.Point(521, 301);
             this.btn_login.Name = "btn_login";
@@ -138,7 +138,7 @@ namespace Student_Management
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(827, 464);
+            this.ClientSize = new System.Drawing.Size(820, 450);
             this.Controls.Add(this.panel_login);
             this.Name = "form_login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

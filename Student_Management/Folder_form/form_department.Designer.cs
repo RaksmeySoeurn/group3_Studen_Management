@@ -55,17 +55,17 @@ namespace Student_Management.Folder_form
             this.panel_above.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_above.Location = new System.Drawing.Point(0, 0);
             this.panel_above.Name = "panel_above";
-            this.panel_above.Size = new System.Drawing.Size(735, 64);
+            this.panel_above.Size = new System.Drawing.Size(731, 64);
             this.panel_above.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Khmer Serif", 24F, System.Drawing.FontStyle.Bold);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.label1.Location = new System.Drawing.Point(219, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(362, 50);
+            this.label1.Size = new System.Drawing.Size(320, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Choose Department";
             // 
@@ -86,7 +86,7 @@ namespace Student_Management.Folder_form
             this.panel_menu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel_menu.Location = new System.Drawing.Point(0, 64);
             this.panel_menu.Name = "panel_menu";
-            this.panel_menu.Size = new System.Drawing.Size(264, 417);
+            this.panel_menu.Size = new System.Drawing.Size(264, 412);
             this.panel_menu.TabIndex = 1;
             // 
             // btn_delect
@@ -210,7 +210,7 @@ namespace Student_Management.Folder_form
             this.panel_con.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_con.Location = new System.Drawing.Point(264, 64);
             this.panel_con.Name = "panel_con";
-            this.panel_con.Size = new System.Drawing.Size(471, 417);
+            this.panel_con.Size = new System.Drawing.Size(467, 412);
             this.panel_con.TabIndex = 2;
             // 
             // form_department
@@ -218,7 +218,7 @@ namespace Student_Management.Folder_form
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(735, 481);
+            this.ClientSize = new System.Drawing.Size(731, 476);
             this.Controls.Add(this.panel_con);
             this.Controls.Add(this.panel_menu);
             this.Controls.Add(this.panel_above);

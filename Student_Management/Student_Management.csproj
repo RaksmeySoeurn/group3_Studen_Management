@@ -82,6 +82,7 @@
     <Compile Include="Folder_form\form_register.Designer.cs">
       <DependentUpon>form_register.cs</DependentUpon>
     </Compile>
+    <Compile Include="Folder_form\textBox6.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQL_Connection.cs" />
