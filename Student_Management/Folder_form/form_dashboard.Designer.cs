@@ -61,7 +61,7 @@ namespace Student_Management.Folder_form
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Rockwell", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(256, 20);
+            this.label1.Location = new System.Drawing.Point(259, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(473, 39);
             this.label1.TabIndex = 0;
@@ -173,6 +173,7 @@ namespace Student_Management.Folder_form
             this.panel_contance.Name = "panel_contance";
             this.panel_contance.Size = new System.Drawing.Size(735, 481);
             this.panel_contance.TabIndex = 2;
+            this.panel_contance.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_contance_Paint);
             // 
             // form_dashboard
             // 

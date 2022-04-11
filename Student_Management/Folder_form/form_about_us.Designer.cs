@@ -41,7 +41,7 @@ namespace Student_Management.Folder_form
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(735, 63);
+            this.panel1.Size = new System.Drawing.Size(736, 63);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -61,14 +61,14 @@ namespace Student_Management.Folder_form
             this.panel_con_about.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_con_about.Location = new System.Drawing.Point(0, 63);
             this.panel_con_about.Name = "panel_con_about";
-            this.panel_con_about.Size = new System.Drawing.Size(735, 418);
+            this.panel_con_about.Size = new System.Drawing.Size(736, 419);
             this.panel_con_about.TabIndex = 1;
             // 
             // form_about_us
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(735, 481);
+            this.ClientSize = new System.Drawing.Size(736, 482);
             this.Controls.Add(this.panel_con_about);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

@@ -59,5 +59,10 @@ namespace Student_Management.Folder_form
         {
             AbrirFormHija(new form_about_us());
         }
+
+        private void panel_contance_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -68,6 +68,7 @@ namespace Student_Management.Folder_form
             this.label1.Size = new System.Drawing.Size(362, 50);
             this.label1.TabIndex = 0;
             this.label1.Text = "Choose Department";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel_menu
             // 
@@ -212,6 +213,7 @@ namespace Student_Management.Folder_form
             this.panel_con.Name = "panel_con";
             this.panel_con.Size = new System.Drawing.Size(471, 417);
             this.panel_con.TabIndex = 2;
+            this.panel_con.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_con_Paint);
             // 
             // form_department
             // 

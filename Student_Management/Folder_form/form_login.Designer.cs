@@ -63,7 +63,7 @@ namespace Student_Management
             this.button2.BackColor = System.Drawing.Color.Red;
             this.button2.Font = new System.Drawing.Font("Khmer OS Wat Phnom", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(688, 301);
+            this.button2.Location = new System.Drawing.Point(688, 307);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 54);
             this.button2.TabIndex = 6;
@@ -74,7 +74,7 @@ namespace Student_Management
             // txtpassword
             // 
             this.txtpassword.Font = new System.Drawing.Font("Khmer OS System", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpassword.Location = new System.Drawing.Point(521, 183);
+            this.txtpassword.Location = new System.Drawing.Point(521, 184);
             this.txtpassword.Multiline = true;
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.Size = new System.Drawing.Size(287, 38);
@@ -94,7 +94,7 @@ namespace Student_Management
             this.btn_login.BackColor = System.Drawing.Color.Lime;
             this.btn_login.Font = new System.Drawing.Font("Khmer OS Wat Phnom", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_login.ForeColor = System.Drawing.Color.Black;
-            this.btn_login.Location = new System.Drawing.Point(508, 301);
+            this.btn_login.Location = new System.Drawing.Point(507, 307);
             this.btn_login.Name = "btn_login";
             this.btn_login.Size = new System.Drawing.Size(120, 54);
             this.btn_login.TabIndex = 3;
@@ -105,7 +105,7 @@ namespace Student_Management
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 36);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 55);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(362, 319);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -117,7 +117,7 @@ namespace Student_Management
             this.labelpassword.AutoSize = true;
             this.labelpassword.Font = new System.Drawing.Font("Khmer OS Siemreap", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelpassword.ForeColor = System.Drawing.Color.White;
-            this.labelpassword.Location = new System.Drawing.Point(395, 183);
+            this.labelpassword.Location = new System.Drawing.Point(395, 184);
             this.labelpassword.Name = "labelpassword";
             this.labelpassword.Size = new System.Drawing.Size(107, 38);
             this.labelpassword.TabIndex = 1;
@@ -140,6 +140,7 @@ namespace Student_Management
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(821, 461);
             this.Controls.Add(this.panel_login);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "form_login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
